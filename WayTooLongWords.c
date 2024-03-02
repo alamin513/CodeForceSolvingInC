@@ -16,5 +16,4 @@ int main()
              printf("%c%d%c\n",str[0],len-2,str[len-1]);
         }
     }
-    getchar();
 }
