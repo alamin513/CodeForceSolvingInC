@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+    long long int m,n,a,total;
+    scanf("%lld %lld %lld",&m,&n,&a);
+    double height=ceil((double)m/(double)a);
+    double weidth=ceil((double)n/(double)a);
+    total=height*weidth;
+    printf("%lld",total);
+    return 0;
+
+}
